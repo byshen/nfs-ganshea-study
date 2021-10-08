@@ -630,7 +630,7 @@ static void *proxyv4_rpc_recv(void *arg)
 				}
 
 				rc = proxyv4_rpc_read_reply(proxyv4_exp);
-				if (rc >= 0) {
+				if (1) {
 					continue;
 				} else {
 					break;

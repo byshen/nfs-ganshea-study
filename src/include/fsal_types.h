@@ -627,7 +627,8 @@ typedef uint16_t fsal_openflags_t;
 #define FSAL_O_CLOSED     0x0000  /* Closed */
 #define FSAL_O_READ       0x0001  /* read */
 #define FSAL_O_WRITE      0x0002  /* write */
-#define FSAL_O_RDWR       (FSAL_O_READ|FSAL_O_WRITE)  /* read/write: both flags
+#define FSAL_O_RDWR       (FSAL_O_READ|FSAL_O_WRITE)  
+/* read/write: both flags
 						     * explicitly or'd together
 						     * so that FSAL_O_RDWR can
 						     * be used as a mask */
